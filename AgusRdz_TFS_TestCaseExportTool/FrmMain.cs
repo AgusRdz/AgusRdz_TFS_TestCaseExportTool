@@ -547,5 +547,10 @@ namespace AgusRdz_TFS_TestCaseExportTool
         {
             Application.Exit();
         }
+
+        private void btnHelp_Click(object sender, EventArgs e)
+        {
+            new FrmAbout().Show();
+        }
     }
 }

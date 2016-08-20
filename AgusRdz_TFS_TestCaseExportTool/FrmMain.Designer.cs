@@ -110,6 +110,7 @@
             this.btnHelp.TabIndex = 20;
             this.btnHelp.Text = "About...";
             this.btnHelp.UseVisualStyleBackColor = true;
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
             // btnExport
             // 
