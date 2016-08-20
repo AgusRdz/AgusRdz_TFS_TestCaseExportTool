@@ -131,6 +131,7 @@
             this.btnCancel.TabIndex = 18;
             this.btnCancel.Text = "Exit";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // gbTarget
             // 
@@ -214,7 +215,6 @@
             this.gbSource.TabIndex = 16;
             this.gbSource.TabStop = false;
             this.gbSource.Text = "Origen";
-            this.gbSource.Enter += new System.EventHandler(this.gbSource_Enter);
             // 
             // comBoxTestPlan
             // 
@@ -226,6 +226,7 @@
             this.comBoxTestPlan.Name = "comBoxTestPlan";
             this.comBoxTestPlan.Size = new System.Drawing.Size(215, 23);
             this.comBoxTestPlan.TabIndex = 2;
+            this.comBoxTestPlan.Click += new System.EventHandler(this.comBoxTestPlan_SelectedIndexChanged);
             // 
             // lblTestSuite
             // 
@@ -265,6 +266,7 @@
             this.btnTeamProject.TabIndex = 1;
             this.btnTeamProject.Text = "...";
             this.btnTeamProject.UseVisualStyleBackColor = true;
+            this.btnTeamProject.Click += new System.EventHandler(this.btnTeamProject_Click);
             // 
             // txtTeamProject
             // 
